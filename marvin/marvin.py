@@ -3,8 +3,8 @@ import openai
 
 class Marvin:
     def __init__(self):
-        self.start_sequence = "\nMarvin:"
-        self.restart_sequence = "\n\nHuman:"
+        self.start_sequence = "\nMarvin"
+        self.restart_sequence = "\n\nHuman"
     
         self.session_prompt = open('../marvin.txt', 'r').read()
 
